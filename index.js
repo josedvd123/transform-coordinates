@@ -1,7 +1,7 @@
 'use strict'
 
 const epsg = require('epsg-index/all.json')
-const proj4 = require('proj4')
+const proj4 = require('proj4').default
 
 const leadingEPSG = /^epsg:/i
 
